@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MedKit Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for MedKit" />
+  <style>
+    :root {
+      --bg: #0b1220;
+      --card: rgba(255,255,255,0.06);
+      --text: rgba(255,255,255,0.92);
+      --muted: rgba(255,255,255,0.72);
+      --border: rgba(255,255,255,0.12);
+      --accent: #74c0ff;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f6f9ff;
+        --card: #ffffff;
+        --text: #0b1220;
+        --muted: #4b5563;
+        --border: #e5e7eb;
+        --accent: #0b74ff;
+      }
+    }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: radial-gradient(1200px 800px at 20% 10%, rgba(116,192,255,0.25), transparent 60%),
+                  radial-gradient(1000px 700px at 90% 20%, rgba(11,116,255,0.18), transparent 60%),
+                  var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 32px 16px 56px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 20px 18px;
+      backdrop-filter: blur(10px);
+    }
+    h1 { margin: 0 0 6px; font-size: 28px; letter-spacing: -0.02em; }
+    .meta { color: var(--muted); margin-bottom: 18px; }
+    h2 { margin: 22px 0 8px; font-size: 18px; }
+    p { margin: 8px 0; color: var(--text); }
+    ul { margin: 8px 0 8px 18px; color: var(--text); }
+    .muted { color: var(--muted); }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .footer { margin-top: 18px; font-size: 13px; color: var(--muted); }
+    code { background: rgba(127,127,127,0.18); padding: 2px 6px; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Privacy Policy — MedKit</h1>
+      <div class="meta">Last updated: <span id="date">2025-12-15</span></div>
+
+      <p>
+        MedKit is a medicine and kit tracking app. This Privacy Policy explains how we handle
+        information when you use the app.
+      </p>
+
+      <h2>1. Data We Collect</h2>
+      <p>
+        MedKit does <strong>not</strong> collect personal data to our servers. The app is designed to work offline.
+      </p>
+
+      <h2>2. Data Stored on Your Device</h2>
+      <p>
+        The information you enter in the app (for example: medicine name, expiry date, quantity, price, notes, categories, kits)
+        is stored <strong>locally on your device</strong>.
+      </p>
+
+      <h2>3. Device Permissions</h2>
+      <p>
+        MedKit does not require access to your contacts, location, or microphone for its core functionality.
+      </p>
+      <p class="muted">
+        If barcode scanning is added in the future, the app may request camera permission only for scanning purposes.
+      </p>
+
+      <h2>4. Third-Party Sharing</h2>
+      <p>
+        MedKit does not sell, rent, or share your personal information with third parties.
+      </p>
+
+      <h2>5. Data Deletion</h2>
+      <p>
+        You can delete your data by removing medicines/kits inside the app or by uninstalling the app from your device.
+      </p>
+
+      <h2>6. Contact</h2>
+      <p>
+        If you have questions about this Privacy Policy, contact:
+        <br />
+        <strong>Email:</strong> <a href="mailto:YOUR_EMAIL_HERE">YOUR_EMAIL_HERE</a>
+      </p>
+
+      <div class="footer">
+        Tip: Replace <code>YOUR_EMAIL_HERE</code> with your real support email before publishing.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Optional: auto-set today's date if you want.
+    // document.getElementById('date').textContent = new Date().toISOString().slice(0,10);
+  </script>
+</body>
+</html>
